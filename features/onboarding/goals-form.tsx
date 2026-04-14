@@ -19,6 +19,7 @@ import { Separator } from "@/components/ui/separator";
 import type { UserGoals } from "@/types/goals";
 import { useAppStore } from "@/store/useAppStore";
 import { CATEGORY_OPTIONS } from "@/lib/categories";
+import { runAnalysis } from "@/services/analysis/runAnalysis";
 import { goalsFingerprint } from "@/utils/goals-fingerprint";
 import {
   experienceLabelRu,
@@ -262,14 +263,8 @@ export function GoalsForm({ initial }: { initial?: UserGoals }) {
               setError(null);
               try {
                 setGoals(goalsPayload);
-                const res = await fetch("/api/analyze", {
-                  method: "POST",
-                  headers: { "Content-Type": "application/json" },
-                  body: JSON.stringify({ goals: goalsPayload }),
-                });
-                if (!res.ok) throw new Error(ru.errors.analysisRun);
-                const json = await res.json();
-                setAnalysis(json.analysis, goalsFingerprint(goalsPayload));
+                const analysis = runAnalysis(goalsPayload);
+                setAnalysis(analysis, goalsFingerprint(goalsPayload));
                 router.push("/dashboard");
               } catch {
                 setError(ru.errors.analysisRun);

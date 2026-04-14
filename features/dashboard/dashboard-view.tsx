@@ -18,6 +18,7 @@ import { ProfitVsEntryChart } from "@/components/charts/profit-vs-entry";
 import { ForecastLinesChart } from "@/components/charts/forecast-lines";
 import { LeaderboardBar } from "@/components/charts/leaderboard-bar";
 import type { AnalysisResult } from "@/services/analysis/types";
+import { runAnalysis } from "@/services/analysis/runAnalysis";
 import { goalsFingerprint } from "@/utils/goals-fingerprint";
 import { cn } from "@/lib/utils";
 import { ru } from "@/lib/i18n/ru";
@@ -28,7 +29,7 @@ export function DashboardView() {
   const analysisGoalsFingerprint = useAppStore((s) => s.analysisGoalsFingerprint);
   const setAnalysis = useAppStore((s) => s.setAnalysis);
   const selectedCompareIds = useAppStore((s) => s.selectedCompareIds);
-  const { requestFailed: errRequestFailed, dashboardLoad: errDashboardLoad } = ru.errors;
+  const { dashboardLoad: errDashboardLoad } = ru.errors;
 
   const fp = goalsFingerprint(goals);
   const analysisFresh = Boolean(analysis && analysisGoalsFingerprint === fp);
@@ -40,23 +41,14 @@ export function DashboardView() {
     setLoading(true);
     setError(null);
     try {
-      const res = await fetch("/api/analyze", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ goals }),
-      });
-      if (!res.ok) {
-        const j = await res.json().catch(() => ({}));
-        throw new Error(typeof j.error === "string" ? j.error : errRequestFailed);
-      }
-      const json = await res.json();
-      setAnalysis(json.analysis as AnalysisResult, goalsFingerprint(goals));
+      const analysisResult = runAnalysis(goals);
+      setAnalysis(analysisResult as AnalysisResult, goalsFingerprint(goals));
     } catch (e) {
       setError(e instanceof Error ? e.message : errDashboardLoad);
     } finally {
       setLoading(false);
     }
-  }, [goals, setAnalysis, errRequestFailed, errDashboardLoad]);
+  }, [goals, setAnalysis, errDashboardLoad]);
 
   useEffect(() => {
     if (analysisFresh) {

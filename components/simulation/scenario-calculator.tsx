@@ -16,6 +16,7 @@ import { Slider } from "@/components/ui/slider";
 import type { RiskTolerance, TimeHorizonMonths, UserGoals } from "@/types/goals";
 import { useAppStore } from "@/store/useAppStore";
 import type { AnalysisResult } from "@/services/analysis/types";
+import { runAnalysis } from "@/services/analysis/runAnalysis";
 import { CATEGORY_OPTIONS } from "@/lib/categories";
 import { goalsFingerprint } from "@/utils/goals-fingerprint";
 import {
@@ -175,15 +176,9 @@ export function ScenarioCalculator({
                 experienceLevel,
               });
               setGoals(nextGoals);
-              const res = await fetch("/api/simulate", {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ goals: nextGoals }),
-              });
-              if (!res.ok) throw new Error(ru.errors.simulation);
-              const json = await res.json();
-              setAnalysis(json.analysis, goalsFingerprint(nextGoals));
-              onResult?.(json.analysis);
+              const analysis = runAnalysis(nextGoals);
+              setAnalysis(analysis, goalsFingerprint(nextGoals));
+              onResult?.(analysis);
             } catch {
               setError(ru.errors.simulation);
             } finally {

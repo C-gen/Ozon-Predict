@@ -11,6 +11,7 @@ import { CompareTable } from "@/components/compare/compare-table";
 import { CompareScoresBar } from "@/components/charts/compare-scores-bar";
 import { useAppStore } from "@/store/useAppStore";
 import { getNicheById } from "@/data/niches/repository";
+import { runCompare } from "@/services/compare/runCompare";
 import type { EnrichedNiche } from "@/services/analysis/types";
 import { ru } from "@/lib/i18n/ru";
 
@@ -39,29 +40,13 @@ export default function ComparePage() {
       setError(null);
       setErrorCode(null);
       try {
-        const res = await fetch("/api/compare", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ nicheIds: selectedCompareIds, goals }),
-        });
-        const json = (await res.json().catch(() => ({}))) as {
-          error?: string;
-          code?: string;
-          niches?: EnrichedNiche[];
-        };
-        if (!res.ok) {
-          if (!cancelled) {
-            setError(typeof json.error === "string" ? json.error : ru.errors.compareLoad);
-            setErrorCode(typeof json.code === "string" ? json.code : null);
-            setNiches(null);
-          }
-          return;
-        }
-        if (!cancelled) setNiches(json.niches ?? []);
+        const compared = runCompare(selectedCompareIds, goals);
+        if (!cancelled) setNiches(compared as EnrichedNiche[]);
       } catch (e) {
         if (!cancelled) {
           setError(e instanceof Error ? e.message : ru.errors.compareLoad);
-          setErrorCode(null);
+          const code = e && typeof e === "object" && "code" in e ? String((e as { code?: string }).code ?? "") : "";
+          setErrorCode(code || null);
         }
       } finally {
         if (!cancelled) setLoading(false);
