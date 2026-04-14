@@ -1,0 +1,828 @@
+[
+  {
+    "id": "vacuum-storage-bags-set",
+    "name": "Вакуумные пакеты для хранения одежды (набор)",
+    "category": "Хранение",
+    "averagePriceRub": 1290,
+    "estimatedUnitCostRub": 410,
+    "estimatedLogisticsCostRub": 165,
+    "estimatedMarketplaceCommissionRate": 0.17,
+    "estimatedReturnRate": 0.06,
+    "estimatedMonthlyDemandUnits": 8200,
+    "demandGrowthRate": 0.11,
+    "numberOfSellers": 310,
+    "numberOfSkus": 4200,
+    "reviewDensity": 0.21,
+    "seasonalityIndex": 0.18,
+    "entryBarrierLevel": 2,
+    "operationalComplexity": 2,
+    "trendVelocity": 0.14,
+    "estimatedStartupBudgetRub": 220000,
+    "categoryDifficulty": 2,
+    "emergingNicheSignal": 0.42,
+    "risks": [
+      "Демпинг по базовым комплектам",
+      "Возвраты из‑за брака клапана"
+    ],
+    "launchStrategy": [
+      "Старт с 2 размерах + усиленный контент «как использовать»",
+      "Бандлы 6+1 как upsell"
+    ]
+  },
+  {
+    "id": "expandable-drawer-dividers",
+    "name": "Раздвижные органайзеры для ящиков кухни",
+    "category": "Кухонные органайзеры",
+    "averagePriceRub": 890,
+    "estimatedUnitCostRub": 260,
+    "estimatedLogisticsCostRub": 140,
+    "estimatedMarketplaceCommissionRate": 0.17,
+    "estimatedReturnRate": 0.05,
+    "estimatedMonthlyDemandUnits": 5400,
+    "demandGrowthRate": 0.09,
+    "numberOfSellers": 260,
+    "numberOfSkus": 3100,
+    "reviewDensity": 0.18,
+    "seasonalityIndex": 0.12,
+    "entryBarrierLevel": 2,
+    "operationalComplexity": 2,
+    "trendVelocity": 0.1,
+    "estimatedStartupBudgetRub": 180000,
+    "categoryDifficulty": 2,
+    "emergingNicheSignal": 0.5,
+    "risks": [
+      "Сильная визуальная конкуренция в карточке"
+    ],
+    "launchStrategy": [
+      "3 цвета + инфографика размеров",
+      "Комплект 4 шт."
+    ]
+  },
+  {
+    "id": "microfiber-cleaning-cloths-pro",
+    "name": "Микрофибра для уборки (проф-набор)",
+    "category": "Товары для дома",
+    "averagePriceRub": 690,
+    "estimatedUnitCostRub": 190,
+    "estimatedLogisticsCostRub": 95,
+    "estimatedMarketplaceCommissionRate": 0.17,
+    "estimatedReturnRate": 0.04,
+    "estimatedMonthlyDemandUnits": 9600,
+    "demandGrowthRate": 0.06,
+    "numberOfSellers": 410,
+    "numberOfSkus": 6200,
+    "reviewDensity": 0.28,
+    "seasonalityIndex": 0.1,
+    "entryBarrierLevel": 1,
+    "operationalComplexity": 1,
+    "trendVelocity": 0.05,
+    "estimatedStartupBudgetRub": 120000,
+    "categoryDifficulty": 1,
+    "emergingNicheSignal": 0.25,
+    "risks": [
+      "Низкий чек — нужен объём"
+    ],
+    "launchStrategy": [
+      "Набор 8/12 шт.",
+      "B2B-кейсы для клининга"
+    ]
+  },
+  {
+    "id": "car-trunk-organizer-foldable",
+    "name": "Органайзер в багажник складной",
+    "category": "Автотовары",
+    "averagePriceRub": 2490,
+    "estimatedUnitCostRub": 980,
+    "estimatedLogisticsCostRub": 260,
+    "estimatedMarketplaceCommissionRate": 0.17,
+    "estimatedReturnRate": 0.07,
+    "estimatedMonthlyDemandUnits": 4100,
+    "demandGrowthRate": 0.08,
+    "numberOfSellers": 220,
+    "numberOfSkus": 2100,
+    "reviewDensity": 0.2,
+    "seasonalityIndex": 0.22,
+    "entryBarrierLevel": 3,
+    "operationalComplexity": 3,
+    "trendVelocity": 0.09,
+    "estimatedStartupBudgetRub": 320000,
+    "categoryDifficulty": 3,
+    "emergingNicheSignal": 0.46,
+    "risks": [
+      "Габарит и логистика",
+      "Возвраты из‑за несовпадения с креплениями"
+    ],
+    "launchStrategy": [
+      "Видео установки",
+      "Модельный ряд по объёму"
+    ]
+  },
+  {
+    "id": "silicone-pet-feeding-mat",
+    "name": "Коврик под миски для животных",
+    "category": "Товары для животных",
+    "averagePriceRub": 790,
+    "estimatedUnitCostRub": 230,
+    "estimatedLogisticsCostRub": 120,
+    "estimatedMarketplaceCommissionRate": 0.17,
+    "estimatedReturnRate": 0.045,
+    "estimatedMonthlyDemandUnits": 6100,
+    "demandGrowthRate": 0.13,
+    "numberOfSellers": 190,
+    "numberOfSkus": 1800,
+    "reviewDensity": 0.16,
+    "seasonalityIndex": 0.14,
+    "entryBarrierLevel": 2,
+    "operationalComplexity": 2,
+    "trendVelocity": 0.18,
+    "estimatedStartupBudgetRub": 160000,
+    "categoryDifficulty": 2,
+    "emergingNicheSignal": 0.58,
+    "risks": [
+      "Однотипные отзывы — важен цвет/толщина"
+    ],
+    "launchStrategy": [
+      "Набор коврик + клипсы",
+      "Контент с кошками/собаками"
+    ]
+  },
+  {
+    "id": "led-vanity-mirror-portable",
+    "name": "Портативное LED-зеркало для макияжа",
+    "category": "Beauty-аксессуары",
+    "averagePriceRub": 1890,
+    "estimatedUnitCostRub": 720,
+    "estimatedLogisticsCostRub": 200,
+    "estimatedMarketplaceCommissionRate": 0.18,
+    "estimatedReturnRate": 0.09,
+    "estimatedMonthlyDemandUnits": 3600,
+    "demandGrowthRate": 0.1,
+    "numberOfSellers": 280,
+    "numberOfSkus": 2600,
+    "reviewDensity": 0.24,
+    "seasonalityIndex": 0.28,
+    "entryBarrierLevel": 3,
+    "operationalComplexity": 3,
+    "trendVelocity": 0.12,
+    "estimatedStartupBudgetRub": 340000,
+    "categoryDifficulty": 4,
+    "emergingNicheSignal": 0.52,
+    "risks": [
+      "Электроника — сервис/гарантия",
+      "До Нового года пики спроса"
+    ],
+    "launchStrategy": [
+      "Тест яркости и АКБ в карточке",
+      "Комплект с USB-C"
+    ]
+  },
+  {
+    "id": "desk-cable-management-rail",
+    "name": "Кабель-менеджмент для офисного стола",
+    "category": "Офис и канцелярия",
+    "averagePriceRub": 1190,
+    "estimatedUnitCostRub": 360,
+    "estimatedLogisticsCostRub": 150,
+    "estimatedMarketplaceCommissionRate": 0.17,
+    "estimatedReturnRate": 0.05,
+    "estimatedMonthlyDemandUnits": 2800,
+    "demandGrowthRate": 0.15,
+    "numberOfSellers": 95,
+    "numberOfSkus": 820,
+    "reviewDensity": 0.11,
+    "seasonalityIndex": 0.08,
+    "entryBarrierLevel": 2,
+    "operationalComplexity": 2,
+    "trendVelocity": 0.22,
+    "estimatedStartupBudgetRub": 150000,
+    "categoryDifficulty": 2,
+    "emergingNicheSignal": 0.72,
+    "risks": [
+      "B2B-спрос может быть нестабилен"
+    ],
+    "launchStrategy": [
+      "Комплекты под 120/140 стол",
+      "Инструкция 3 шага"
+    ]
+  },
+  {
+    "id": "christmas-lights-usb-warm",
+    "name": "Гирлянда USB тёплый белый ( indoor )",
+    "category": "Сезонные товары",
+    "averagePriceRub": 990,
+    "estimatedUnitCostRub": 310,
+    "estimatedLogisticsCostRub": 130,
+    "estimatedMarketplaceCommissionRate": 0.17,
+    "estimatedReturnRate": 0.08,
+    "estimatedMonthlyDemandUnits": 11000,
+    "demandGrowthRate": 0.04,
+    "numberOfSellers": 520,
+    "numberOfSkus": 7800,
+    "reviewDensity": 0.33,
+    "seasonalityIndex": 0.78,
+    "entryBarrierLevel": 2,
+    "operationalComplexity": 2,
+    "trendVelocity": 0.03,
+    "estimatedStartupBudgetRub": 200000,
+    "categoryDifficulty": 2,
+    "emergingNicheSignal": 0.18,
+    "risks": [
+      "Сезонность",
+      "Жёсткий демпинг перед праздником"
+    ],
+    "launchStrategy": [
+      "Закупка с августа",
+      "Набор клипс для крепления"
+    ]
+  },
+  {
+    "id": "stackable-shoe-box-clear",
+    "name": "Прозрачные боксы для обуви (стекируемые)",
+    "category": "Хранение",
+    "averagePriceRub": 450,
+    "estimatedUnitCostRub": 150,
+    "estimatedLogisticsCostRub": 95,
+    "estimatedMarketplaceCommissionRate": 0.17,
+    "estimatedReturnRate": 0.055,
+    "estimatedMonthlyDemandUnits": 7800,
+    "demandGrowthRate": 0.07,
+    "numberOfSellers": 360,
+    "numberOfSkus": 5100,
+    "reviewDensity": 0.26,
+    "seasonalityIndex": 0.16,
+    "entryBarrierLevel": 2,
+    "operationalComplexity": 2,
+    "trendVelocity": 0.08,
+    "estimatedStartupBudgetRub": 210000,
+    "categoryDifficulty": 2,
+    "emergingNicheSignal": 0.33,
+    "risks": [
+      "Бойкость пластика при доставке"
+    ],
+    "launchStrategy": [
+      "Упаковка 6 шт.",
+      "Усиленные углы в ТЗ"
+    ]
+  },
+  {
+    "id": "spice-jar-labels-kit",
+    "name": "Набор баночек для специй + этикетки",
+    "category": "Кухонные органайзеры",
+    "averagePriceRub": 1590,
+    "estimatedUnitCostRub": 520,
+    "estimatedLogisticsCostRub": 190,
+    "estimatedMarketplaceCommissionRate": 0.17,
+    "estimatedReturnRate": 0.06,
+    "estimatedMonthlyDemandUnits": 4300,
+    "demandGrowthRate": 0.12,
+    "numberOfSellers": 210,
+    "numberOfSkus": 2400,
+    "reviewDensity": 0.19,
+    "seasonalityIndex": 0.2,
+    "entryBarrierLevel": 3,
+    "operationalComplexity": 3,
+    "trendVelocity": 0.16,
+    "estimatedStartupBudgetRub": 260000,
+    "categoryDifficulty": 3,
+    "emergingNicheSignal": 0.55,
+    "risks": [
+      "Контроль качества крышек",
+      "Много SKU по форм-фактору"
+    ],
+    "launchStrategy": [
+      "Старт с 12 банок",
+      "QR на рецепты"
+    ]
+  },
+  {
+    "id": "bamboo-cutting-board-juice-groove",
+    "name": "Бамбуковая разделочная доска с желобом",
+    "category": "Товары для дома",
+    "averagePriceRub": 2190,
+    "estimatedUnitCostRub": 780,
+    "estimatedLogisticsCostRub": 240,
+    "estimatedMarketplaceCommissionRate": 0.17,
+    "estimatedReturnRate": 0.05,
+    "estimatedMonthlyDemandUnits": 3200,
+    "demandGrowthRate": 0.05,
+    "numberOfSellers": 170,
+    "numberOfSkus": 1500,
+    "reviewDensity": 0.17,
+    "seasonalityIndex": 0.14,
+    "entryBarrierLevel": 3,
+    "operationalComplexity": 3,
+    "trendVelocity": 0.06,
+    "estimatedStartupBudgetRub": 280000,
+    "categoryDifficulty": 3,
+    "emergingNicheSignal": 0.3,
+    "risks": [
+      "Сухость/трещины — важна влажность хранения"
+    ],
+    "launchStrategy": [
+      "Масло для ухода в комплекте",
+      "Размер L как якорь"
+    ]
+  },
+  {
+    "id": "car-phone-holder-vent-magnetic",
+    "name": "Магнитный держатель телефона в дефлектор",
+    "category": "Автотовары",
+    "averagePriceRub": 790,
+    "estimatedUnitCostRub": 260,
+    "estimatedLogisticsCostRub": 110,
+    "estimatedMarketplaceCommissionRate": 0.17,
+    "estimatedReturnRate": 0.08,
+    "estimatedMonthlyDemandUnits": 8900,
+    "demandGrowthRate": 0.03,
+    "numberOfSellers": 610,
+    "numberOfSkus": 8200,
+    "reviewDensity": 0.36,
+    "seasonalityIndex": 0.12,
+    "entryBarrierLevel": 2,
+    "operationalComplexity": 2,
+    "trendVelocity": 0.02,
+    "estimatedStartupBudgetRub": 140000,
+    "categoryDifficulty": 2,
+    "emergingNicheSignal": 0.12,
+    "risks": [
+      "Красный океан",
+      "Жалобы на магнит/крепёж"
+    ],
+    "launchStrategy": [
+      "Усиленный шарнир как УТП",
+      "Тест 5 моделей авто"
+    ]
+  },
+  {
+    "id": "slow-feeder-dog-bowl",
+    "name": "Миска‑головоломка для собак (slow feeder)",
+    "category": "Товары для животных",
+    "averagePriceRub": 990,
+    "estimatedUnitCostRub": 310,
+    "estimatedLogisticsCostRub": 150,
+    "estimatedMarketplaceCommissionRate": 0.17,
+    "estimatedReturnRate": 0.06,
+    "estimatedMonthlyDemandUnits": 4700,
+    "demandGrowthRate": 0.11,
+    "numberOfSellers": 240,
+    "numberOfSkus": 2600,
+    "reviewDensity": 0.22,
+    "seasonalityIndex": 0.16,
+    "entryBarrierLevel": 2,
+    "operationalComplexity": 2,
+    "trendVelocity": 0.13,
+    "estimatedStartupBudgetRub": 200000,
+    "categoryDifficulty": 2,
+    "emergingNicheSignal": 0.48,
+    "risks": [
+      "Подбор размеров для пород"
+    ],
+    "launchStrategy": [
+      "S/M/L",
+      "Видео с крупными породами"
+    ]
+  },
+  {
+    "id": "makeup-brush-cleaning-mat",
+    "name": "Коврик для мытья кистей для макияжа",
+    "category": "Beauty-аксессуары",
+    "averagePriceRub": 590,
+    "estimatedUnitCostRub": 170,
+    "estimatedLogisticsCostRub": 90,
+    "estimatedMarketplaceCommissionRate": 0.17,
+    "estimatedReturnRate": 0.04,
+    "estimatedMonthlyDemandUnits": 5100,
+    "demandGrowthRate": 0.14,
+    "numberOfSellers": 140,
+    "numberOfSkus": 1100,
+    "reviewDensity": 0.14,
+    "seasonalityIndex": 0.11,
+    "entryBarrierLevel": 1,
+    "operationalComplexity": 1,
+    "trendVelocity": 0.2,
+    "estimatedStartupBudgetRub": 110000,
+    "categoryDifficulty": 2,
+    "emergingNicheSignal": 0.66,
+    "risks": [
+      "Копируемость модели"
+    ],
+    "launchStrategy": [
+      "Набор с мини-шампунем",
+      "UGC"
+    ]
+  },
+  {
+    "id": "monitor-stand-wood-metal",
+    "name": "Подставка под монитор дерево+металл",
+    "category": "Офис и канцелярия",
+    "averagePriceRub": 3490,
+    "estimatedUnitCostRub": 1350,
+    "estimatedLogisticsCostRub": 320,
+    "estimatedMarketplaceCommissionRate": 0.17,
+    "estimatedReturnRate": 0.055,
+    "estimatedMonthlyDemandUnits": 2100,
+    "demandGrowthRate": 0.09,
+    "numberOfSellers": 160,
+    "numberOfSkus": 1400,
+    "reviewDensity": 0.17,
+    "seasonalityIndex": 0.1,
+    "entryBarrierLevel": 4,
+    "operationalComplexity": 3,
+    "trendVelocity": 0.11,
+    "estimatedStartupBudgetRub": 420000,
+    "categoryDifficulty": 3,
+    "emergingNicheSignal": 0.44,
+    "risks": [
+      "Логистика веса",
+      "Брак покрытия"
+    ],
+    "launchStrategy": [
+      "2 цвета",
+      "Партнерство с блогерами WFH"
+    ]
+  },
+  {
+    "id": "thermal-lunch-jar-food-flask",
+    "name": "Термос для еды широкое горло 700 мл",
+    "category": "Кухонные органайзеры",
+    "averagePriceRub": 1890,
+    "estimatedUnitCostRub": 760,
+    "estimatedLogisticsCostRub": 210,
+    "estimatedMarketplaceCommissionRate": 0.17,
+    "estimatedReturnRate": 0.07,
+    "estimatedMonthlyDemandUnits": 5200,
+    "demandGrowthRate": 0.08,
+    "numberOfSellers": 300,
+    "numberOfSkus": 3200,
+    "reviewDensity": 0.23,
+    "seasonalityIndex": 0.18,
+    "entryBarrierLevel": 3,
+    "operationalComplexity": 3,
+    "trendVelocity": 0.09,
+    "estimatedStartupBudgetRub": 360000,
+    "categoryDifficulty": 3,
+    "emergingNicheSignal": 0.35,
+    "risks": [
+      "Тесты удержания температуры"
+    ],
+    "launchStrategy": [
+      "Сертификаты в PDF",
+      "Сравнение 6/12 ч"
+    ]
+  },
+  {
+    "id": "felt-furniture-pads-assorted",
+    "name": "Накладки на мебель против царапин (набор)",
+    "category": "Товары для дома",
+    "averagePriceRub": 490,
+    "estimatedUnitCostRub": 120,
+    "estimatedLogisticsCostRub": 85,
+    "estimatedMarketplaceCommissionRate": 0.17,
+    "estimatedReturnRate": 0.035,
+    "estimatedMonthlyDemandUnits": 6700,
+    "demandGrowthRate": 0.05,
+    "numberOfSellers": 390,
+    "numberOfSkus": 4100,
+    "reviewDensity": 0.25,
+    "seasonalityIndex": 0.09,
+    "entryBarrierLevel": 1,
+    "operationalComplexity": 1,
+    "trendVelocity": 0.04,
+    "estimatedStartupBudgetRub": 90000,
+    "categoryDifficulty": 1,
+    "emergingNicheSignal": 0.22,
+    "risks": [
+      "Низкая маржа без бандлов"
+    ],
+    "launchStrategy": [
+      "Мега-набор размеров",
+      "B2B для мебельных салонов"
+    ]
+  },
+  {
+    "id": "portable-air-compressor-mini",
+    "name": "Мини-компрессор в прикуриватель",
+    "category": "Автотовары",
+    "averagePriceRub": 2790,
+    "estimatedUnitCostRub": 1180,
+    "estimatedLogisticsCostRub": 240,
+    "estimatedMarketplaceCommissionRate": 0.18,
+    "estimatedReturnRate": 0.1,
+    "estimatedMonthlyDemandUnits": 3800,
+    "demandGrowthRate": 0.06,
+    "numberOfSellers": 340,
+    "numberOfSkus": 2800,
+    "reviewDensity": 0.27,
+    "seasonalityIndex": 0.24,
+    "entryBarrierLevel": 4,
+    "operationalComplexity": 4,
+    "trendVelocity": 0.07,
+    "estimatedStartupBudgetRub": 480000,
+    "categoryDifficulty": 4,
+    "emergingNicheSignal": 0.28,
+    "risks": [
+      "Электроника и гарантия",
+      "Шум/надёжность в отзывах"
+    ],
+    "launchStrategy": [
+      "Тест 10 образцов",
+      "Сервисная схема"
+    ]
+  },
+  {
+    "id": "cat-water-fountain-filter",
+    "name": "Поилка‑фонтан для кошек со сменным фильтром",
+    "category": "Товары для животных",
+    "averagePriceRub": 2290,
+    "estimatedUnitCostRub": 920,
+    "estimatedLogisticsCostRub": 230,
+    "estimatedMarketplaceCommissionRate": 0.17,
+    "estimatedReturnRate": 0.09,
+    "estimatedMonthlyDemandUnits": 4100,
+    "demandGrowthRate": 0.1,
+    "numberOfSellers": 360,
+    "numberOfSkus": 3000,
+    "reviewDensity": 0.29,
+    "seasonalityIndex": 0.15,
+    "entryBarrierLevel": 4,
+    "operationalComplexity": 4,
+    "trendVelocity": 0.1,
+    "estimatedStartupBudgetRub": 450000,
+    "categoryDifficulty": 4,
+    "emergingNicheSignal": 0.4,
+    "risks": [
+      "Шум помпы",
+      "Расходники фильтров"
+    ],
+    "launchStrategy": [
+      "Подписка на фильтры",
+      "Тихий режим как УТП"
+    ]
+  },
+  {
+    "id": "heatless-curling-rod-set",
+    "name": "Набор бигуди без тепла (heatless curls)",
+    "category": "Beauty-аксессуары",
+    "averagePriceRub": 990,
+    "estimatedUnitCostRub": 280,
+    "estimatedLogisticsCostRub": 120,
+    "estimatedMarketplaceCommissionRate": 0.17,
+    "estimatedReturnRate": 0.065,
+    "estimatedMonthlyDemandUnits": 7200,
+    "demandGrowthRate": 0.18,
+    "numberOfSellers": 410,
+    "numberOfSkus": 3600,
+    "reviewDensity": 0.3,
+    "seasonalityIndex": 0.19,
+    "entryBarrierLevel": 2,
+    "operationalComplexity": 2,
+    "trendVelocity": 0.24,
+    "estimatedStartupBudgetRub": 190000,
+    "categoryDifficulty": 2,
+    "emergingNicheSignal": 0.6,
+    "risks": [
+      "Тренд может охладиться",
+      "Много копий"
+    ],
+    "launchStrategy": [
+      "Шёлк + инструкция",
+      "UGC TikTok-style"
+    ]
+  },
+  {
+    "id": "standing-desk-converter-basic",
+    "name": "Настольная платформа для работы стоя",
+    "category": "Офис и канцелярия",
+    "averagePriceRub": 7990,
+    "estimatedUnitCostRub": 3200,
+    "estimatedLogisticsCostRub": 520,
+    "estimatedMarketplaceCommissionRate": 0.17,
+    "estimatedReturnRate": 0.08,
+    "estimatedMonthlyDemandUnits": 1500,
+    "demandGrowthRate": 0.12,
+    "numberOfSellers": 120,
+    "numberOfSkus": 900,
+    "reviewDensity": 0.15,
+    "seasonalityIndex": 0.11,
+    "entryBarrierLevel": 5,
+    "operationalComplexity": 4,
+    "trendVelocity": 0.15,
+    "estimatedStartupBudgetRub": 780000,
+    "categoryDifficulty": 4,
+    "emergingNicheSignal": 0.5,
+    "risks": [
+      "Крупногабарит",
+      "Сложный возврат"
+    ],
+    "launchStrategy": [
+      "Курьерная доставка",
+      "Сборка 60 секунд"
+    ]
+  },
+  {
+    "id": "halloween-led-mask-kids-safe",
+    "name": "Светодиодная маска для косплея (детская безопасная)",
+    "category": "Сезонные товары",
+    "averagePriceRub": 1490,
+    "estimatedUnitCostRub": 520,
+    "estimatedLogisticsCostRub": 170,
+    "estimatedMarketplaceCommissionRate": 0.18,
+    "estimatedReturnRate": 0.11,
+    "estimatedMonthlyDemandUnits": 2600,
+    "demandGrowthRate": 0.2,
+    "numberOfSellers": 180,
+    "numberOfSkus": 1400,
+    "reviewDensity": 0.18,
+    "seasonalityIndex": 0.7,
+    "entryBarrierLevel": 3,
+    "operationalComplexity": 3,
+    "trendVelocity": 0.16,
+    "estimatedStartupBudgetRub": 260000,
+    "categoryDifficulty": 4,
+    "emergingNicheSignal": 0.62,
+    "risks": [
+      "Короткое окно продаж",
+      "Требования к безопасности LED"
+    ],
+    "launchStrategy": [
+      "Предзаказ",
+      "Пакет документов по безопасности"
+    ]
+  },
+  {
+    "id": "under-sink-shelf-expandable",
+    "name": "Полка под раковину раздвижная 2 уровня",
+    "category": "Хранение",
+    "averagePriceRub": 1790,
+    "estimatedUnitCostRub": 640,
+    "estimatedLogisticsCostRub": 220,
+    "estimatedMarketplaceCommissionRate": 0.17,
+    "estimatedReturnRate": 0.07,
+    "estimatedMonthlyDemandUnits": 3900,
+    "demandGrowthRate": 0.1,
+    "numberOfSellers": 200,
+    "numberOfSkus": 1700,
+    "reviewDensity": 0.17,
+    "seasonalityIndex": 0.13,
+    "entryBarrierLevel": 3,
+    "operationalComplexity": 3,
+    "trendVelocity": 0.12,
+    "estimatedStartupBudgetRub": 300000,
+    "categoryDifficulty": 3,
+    "emergingNicheSignal": 0.53,
+    "risks": [
+      "Несовпадение с трубами — важны размеры"
+    ],
+    "launchStrategy": [
+      "Интерактивный гайд замеров",
+      "2 ширины"
+    ]
+  },
+  {
+    "id": "reusable-silicone-food-bags",
+    "name": "Силиконовые пакеты для еды многоразовые",
+    "category": "Кухонные органайзеры",
+    "averagePriceRub": 1390,
+    "estimatedUnitCostRub": 480,
+    "estimatedLogisticsCostRub": 160,
+    "estimatedMarketplaceCommissionRate": 0.17,
+    "estimatedReturnRate": 0.065,
+    "estimatedMonthlyDemandUnits": 3500,
+    "demandGrowthRate": 0.16,
+    "numberOfSellers": 150,
+    "numberOfSkus": 1200,
+    "reviewDensity": 0.13,
+    "seasonalityIndex": 0.12,
+    "entryBarrierLevel": 3,
+    "operationalComplexity": 3,
+    "trendVelocity": 0.19,
+    "estimatedStartupBudgetRub": 240000,
+    "categoryDifficulty": 3,
+    "emergingNicheSignal": 0.68,
+    "risks": [
+      "Запах при первом использовании — инструкция"
+    ],
+    "launchStrategy": [
+      "Набор 3 размера",
+      "Сертификаты пищевого силикона"
+    ]
+  },
+  {
+    "id": "door-draft-stopper-twin",
+    "name": "Двойной уплотнитель для двери (тепло/шум)",
+    "category": "Товары для дома",
+    "averagePriceRub": 890,
+    "estimatedUnitCostRub": 260,
+    "estimatedLogisticsCostRub": 130,
+    "estimatedMarketplaceCommissionRate": 0.17,
+    "estimatedReturnRate": 0.05,
+    "estimatedMonthlyDemandUnits": 4600,
+    "demandGrowthRate": 0.07,
+    "numberOfSellers": 230,
+    "numberOfSkus": 1900,
+    "reviewDensity": 0.19,
+    "seasonalityIndex": 0.34,
+    "entryBarrierLevel": 2,
+    "operationalComplexity": 2,
+    "trendVelocity": 0.06,
+    "estimatedStartupBudgetRub": 170000,
+    "categoryDifficulty": 2,
+    "emergingNicheSignal": 0.31,
+    "risks": [
+      "Сезон зимы",
+      "Несовпадение толщины двери"
+    ],
+    "launchStrategy": [
+      "3 типа крепления",
+      "Калькулятор щели"
+    ]
+  },
+  {
+    "id": "dog-seat-cover-hammock",
+    "name": "Автогамак чехол на заднее сиденье для собак",
+    "category": "Товары для животных",
+    "averagePriceRub": 2690,
+    "estimatedUnitCostRub": 1050,
+    "estimatedLogisticsCostRub": 280,
+    "estimatedMarketplaceCommissionRate": 0.17,
+    "estimatedReturnRate": 0.08,
+    "estimatedMonthlyDemandUnits": 3300,
+    "demandGrowthRate": 0.09,
+    "numberOfSellers": 210,
+    "numberOfSkus": 1900,
+    "reviewDensity": 0.2,
+    "seasonalityIndex": 0.17,
+    "entryBarrierLevel": 3,
+    "operationalComplexity": 3,
+    "trendVelocity": 0.1,
+    "estimatedStartupBudgetRub": 360000,
+    "categoryDifficulty": 3,
+    "emergingNicheSignal": 0.41,
+    "risks": [
+      "Подгон под модели авто"
+    ],
+    "launchStrategy": [
+      "Совместимость по списку авто",
+      "Видео установки"
+    ]
+  },
+  {
+    "id": "wireless-presenter-clicker",
+    "name": "Презентер с лазерной указкой для лекций",
+    "category": "Офис и канцелярия",
+    "averagePriceRub": 1290,
+    "estimatedUnitCostRub": 430,
+    "estimatedLogisticsCostRub": 120,
+    "estimatedMarketplaceCommissionRate": 0.18,
+    "estimatedReturnRate": 0.06,
+    "estimatedMonthlyDemandUnits": 2200,
+    "demandGrowthRate": 0.05,
+    "numberOfSellers": 260,
+    "numberOfSkus": 2100,
+    "reviewDensity": 0.21,
+    "seasonalityIndex": 0.09,
+    "entryBarrierLevel": 3,
+    "operationalComplexity": 3,
+    "trendVelocity": 0.05,
+    "estimatedStartupBudgetRub": 220000,
+    "categoryDifficulty": 3,
+    "emergingNicheSignal": 0.27,
+    "risks": [
+      "Совместимость ОС/драйверов"
+    ],
+    "launchStrategy": [
+      "Plug-and-play акцент",
+      "Корпоративные продажи"
+    ]
+  },
+  {
+    "id": "easter-decor-table-runner",
+    "name": "Пасхальный раннер на стол (текстиль)",
+    "category": "Сезонные товары",
+    "averagePriceRub": 1590,
+    "estimatedUnitCostRub": 520,
+    "estimatedLogisticsCostRub": 160,
+    "estimatedMarketplaceCommissionRate": 0.17,
+    "estimatedReturnRate": 0.07,
+    "estimatedMonthlyDemandUnits": 1800,
+    "demandGrowthRate": 0.08,
+    "numberOfSellers": 130,
+    "numberOfSkus": 900,
+    "reviewDensity": 0.14,
+    "seasonalityIndex": 0.62,
+    "entryBarrierLevel": 2,
+    "operationalComplexity": 2,
+    "trendVelocity": 0.07,
+    "estimatedStartupBudgetRub": 160000,
+    "categoryDifficulty": 2,
+    "emergingNicheSignal": 0.36,
+    "risks": [
+      "Короткий сезон",
+      "Текстиль — цвет на фото"
+    ],
+    "launchStrategy": [
+      "Съёмки в интерьере",
+      "Комплект салфеток"
+    ]
+  }
+]
